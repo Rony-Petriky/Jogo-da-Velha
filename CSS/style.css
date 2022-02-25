@@ -1,0 +1,52 @@
+h1{
+	border: 5px solid grey;
+}
+body{
+	text-align: center;
+}
+.caixa{
+
+	width: 100px;
+	height: 100px;
+	background-color: beige;
+	border: 5px solid grey;
+	display:inline-block ;
+}
+.o{
+	position: relative;
+
+
+}
+.o:after{
+	position: absolute;
+	content: "\1F534";
+	font-size: 50px;
+	line-height: 100px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+}
+.x{
+	position: relative;
+
+
+}
+.x:after{
+	position: absolute;
+	content: "\274E";
+	font-size: 50px;
+	line-height: 100px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+}
+.corTab{
+	background-color: PowderBlue;
+}
+.corTab1{
+	background-color: pink;
+}
